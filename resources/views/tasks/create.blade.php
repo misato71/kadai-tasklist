@@ -10,7 +10,7 @@
             
                 <div class="form-group">
                     {!! Form::label('content', 'タスク：') !!}
-                    {!! Form::text('content', null, ['class' => 'form-controll']) !!}
+                    {!! Form::text('content', null, ['class' => 'form-control']) !!}
                 </div>
                 
                 {!! Form::submit('投稿', ['class' => 'btn btn-success']) !!}
