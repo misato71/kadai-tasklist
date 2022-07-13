@@ -11,23 +11,23 @@
             
             {!! Form::open(['route' => 'signup.post']) !!}
                 <div class="form-group">
-                    {!! Form::lavel('name', 'Name') !!}
+                    {!! Form::label('name', 'Name') !!}
                     {!! Form::text('name', null, ['class' => 'form-control']) !!}
                 </div>
                 
                 <div class="form-group">
-                    {!! Form::lavel('email', 'Email') !!}
+                    {!! Form::label('email', 'Email') !!}
                     {!! Form::email('email', null, ['class' => 'form-control']) !!}
                 </div>
                 
                 <div class="form-group">
-                    {!! Form::lavel('password', 'Password') !!}
+                    {!! Form::label('password', 'Password') !!}
                     {!! Form::password('password', ['class' => 'form-control']) !!}
                 </div>
                 
                 <div class="form-group">
-                    {!! Form::lavel('password_confimation', 'Confimation') !!}
-                    {!! Form::password('password_confimation', ['class' => 'form-control']) !!}
+                    {!! Form::label('password_confirmation', 'Confirmation') !!}
+                    {!! Form::password('password_confirmation', ['class' => 'form-control']) !!}
                 </div>
                 
                 {!! Form::submit('Sign up', ['class' => 'btn btn-success btn-block']) !!}
